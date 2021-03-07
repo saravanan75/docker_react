@@ -1,0 +1,18 @@
+{
+  "name": "globoappserver",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "4.17.1",
+    "redis": "3.0.2",
+    "pg": "8.0.3",
+    "cors": "^2.8.5",
+    "body-parser": "1.19.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
